@@ -21,49 +21,57 @@ const Sidebar = () => {
       <hr />
       <div className='center'>
         <ul>
+          <p className='title'>Main</p>
           <li>
-            <MdDashboard />
+            <MdDashboard className='icon' />
             <span>Dashboard</span>
           </li>
+          <p className='title'>List</p>
           <li>
-            <MdSupervisorAccount />
+            <MdSupervisorAccount className='icon' />
             <span>Users</span>
           </li>
           <li>
-            <MdProductionQuantityLimits />
+            <MdProductionQuantityLimits className='icon' />
             <span>Products</span>
           </li>
           <li>
-            <MdShoppingCart />
+            <MdShoppingCart className='icon' />
             <span>Orders</span>
           </li>
+          <p className='title'>Useful</p>
           <li>
-            <MdQueryStats />
+            <MdQueryStats className='icon' />
             <span>Stats</span>
           </li>
           <li>
-            <MdNotificationsActive />
+            <MdNotificationsActive className='icon' />
             <span>Notifications</span>
           </li>
+          <p className='title'>Service</p>
           <li>
-            <MdPsychology />
+            <MdPsychology className='icon' />
             <span>Logs</span>
           </li>
+          <p className='title'>User</p>
           <li>
-            <MdOutlinePersonPin />
+            <MdOutlinePersonPin className='icon' />
             <span>Profile</span>
           </li>
           <li>
-            <MdSettings />
+            <MdSettings className='icon' />
             <span>Settings</span>
           </li>
           <li>
-            <MdLogout />
+            <MdLogout className='icon' />
             <span>Logout</span>
           </li>
         </ul>
       </div>
-      <div className='bottom'>color option</div>
+      <div className='bottom'>
+        <div className='colorOption'></div>
+        <div className='colorOption'></div>
+      </div>
     </div>
   );
 };
