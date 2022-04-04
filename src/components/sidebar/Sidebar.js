@@ -10,6 +10,8 @@ import {
   MdOutlinePersonPin,
   MdSettings,
   MdLogout,
+  MdOutlineMonetizationOn,
+  MdOutlineAccountBalance,
 } from 'react-icons/md';
 
 const Sidebar = () => {
@@ -52,6 +54,14 @@ const Sidebar = () => {
           <li>
             <MdPsychology className='icon' />
             <span>Logs</span>
+          </li>
+          <li>
+            <MdOutlineMonetizationOn className='icon' />
+            <span>Earning</span>
+          </li>
+          <li>
+            <MdOutlineAccountBalance className='icon' />
+            <span>Balance</span>
           </li>
           <p className='title'>User</p>
           <li>
