@@ -39,7 +39,7 @@ const Navbar = () => {
             <MdFormatListBulleted className='icon' />
           </div>
           <div className='item'>
-            <img src='images/user.png' alt='avatar' className='avatar' />
+            <img src='/images/user.png' alt='avatar' className='avatar' />
           </div>
         </div>
       </div>
